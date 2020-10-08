@@ -10,8 +10,14 @@ namespace WorkShopOne
             char[] ticTacToeBoard = ticTacToeGame.CreateBoard();
             char playerChoice = ticTacToeGame.ChooseXO();
             ticTacToeGame.ShowBoard();
-            ticTacToeGame.PlayerMakesMove();
-            ticTacToeGame.ShowBoard();
+            if (ticTacToeGame.TossWhoBegins() == 0) 
+            {
+                ticTacToeGame.PlayerMakesMove();
+            }
+            else
+            {
+                ticTacToeGame.CompMakesMove();
+            }
         }
 
     }
