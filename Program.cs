@@ -4,9 +4,19 @@ namespace WorkShopOne
 {
     class Program
     {
+        char playerChoice, compChoice;
         static void Main(string[] args)
         {
             char[] ticTacToeBoard = CreateBoard();
+            char playerChoice = ChooseXO();
+            if (playerChoice == 'O')
+            {
+                compChoice = 'X';
+            }
+            else
+            {
+                compChoice = 'O';
+            }
         }
 
         //creating an empty array
@@ -19,6 +29,13 @@ namespace WorkShopOne
                 board[i] = ' ';
             }
             return board;
+        }
+
+        public static char ChooseXO()
+        {
+            char playerChoice, compChoice;
+            playerChoice = Console.ReadKey().KeyChar;
+            return playerChoice;
         }
 
     }
