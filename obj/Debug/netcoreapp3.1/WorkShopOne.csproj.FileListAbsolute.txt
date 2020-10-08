@@ -2,3 +2,12 @@ C:\Users\hp\source\repos\WorkShopOne\WorkShopOne\obj\Debug\netcoreapp3.1\WorkSho
 C:\Users\hp\source\repos\WorkShopOne\WorkShopOne\obj\Debug\netcoreapp3.1\WorkShopOne.AssemblyInfoInputs.cache
 C:\Users\hp\source\repos\WorkShopOne\WorkShopOne\obj\Debug\netcoreapp3.1\WorkShopOne.AssemblyInfo.cs
 C:\Users\hp\source\repos\WorkShopOne\WorkShopOne\obj\Debug\netcoreapp3.1\WorkShopOne.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\WorkShopOne\WorkShopOne\bin\Debug\netcoreapp3.1\WorkShopOne.exe
+C:\Users\hp\source\repos\WorkShopOne\WorkShopOne\bin\Debug\netcoreapp3.1\WorkShopOne.deps.json
+C:\Users\hp\source\repos\WorkShopOne\WorkShopOne\bin\Debug\netcoreapp3.1\WorkShopOne.runtimeconfig.json
+C:\Users\hp\source\repos\WorkShopOne\WorkShopOne\bin\Debug\netcoreapp3.1\WorkShopOne.runtimeconfig.dev.json
+C:\Users\hp\source\repos\WorkShopOne\WorkShopOne\bin\Debug\netcoreapp3.1\WorkShopOne.dll
+C:\Users\hp\source\repos\WorkShopOne\WorkShopOne\bin\Debug\netcoreapp3.1\WorkShopOne.pdb
+C:\Users\hp\source\repos\WorkShopOne\WorkShopOne\obj\Debug\netcoreapp3.1\WorkShopOne.dll
+C:\Users\hp\source\repos\WorkShopOne\WorkShopOne\obj\Debug\netcoreapp3.1\WorkShopOne.pdb
+C:\Users\hp\source\repos\WorkShopOne\WorkShopOne\obj\Debug\netcoreapp3.1\WorkShopOne.genruntimeconfig.cache
