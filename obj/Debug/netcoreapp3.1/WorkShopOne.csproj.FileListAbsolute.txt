@@ -1,0 +1,4 @@
+C:\Users\hp\source\repos\WorkShopOne\WorkShopOne\obj\Debug\netcoreapp3.1\WorkShopOne.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\WorkShopOne\WorkShopOne\obj\Debug\netcoreapp3.1\WorkShopOne.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\WorkShopOne\WorkShopOne\obj\Debug\netcoreapp3.1\WorkShopOne.AssemblyInfo.cs
+C:\Users\hp\source\repos\WorkShopOne\WorkShopOne\obj\Debug\netcoreapp3.1\WorkShopOne.csproj.CoreCompileInputs.cache
