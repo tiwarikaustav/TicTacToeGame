@@ -10,6 +10,7 @@ namespace WorkShopOne
             char[] ticTacToeBoard = ticTacToeGame.CreateBoard();
             char playerChoice = ticTacToeGame.ChooseXO();
             ticTacToeGame.ShowBoard();
+            ticTacToeGame.PlayerMakesMove();
         }
 
     }
