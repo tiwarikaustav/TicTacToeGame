@@ -7,13 +7,13 @@ namespace WorkShopOne
     class TicTacToeGame
     {
         char [] board = new char[10];
-        char playerChoice;
+        char playerChoice, compChoice;
         public char[] CreateBoard()
         {
             //creating an empty char array of size 10
             for (int i = 0; i < 10; i++)
             {
-                board[i] = 'd';
+                board[i] = ' ';
             }
             return board;
         }
@@ -23,6 +23,14 @@ namespace WorkShopOne
         {
             Console.WriteLine("Enter Your Choice X/O");
             playerChoice = Console.ReadKey().KeyChar;
+            if(playerChoice == 'X')
+            {
+                compChoice = 'O';
+            }
+            else
+            {
+                compChoice = 'X';
+            }
             return playerChoice;
         }
 
@@ -40,15 +48,40 @@ namespace WorkShopOne
         {
             string temp = Console.ReadLine();
             int position = Convert.ToInt32(temp);
-            //check is empty
-            if(board[position] == ' ')
+            //check if desired position is empty or not
+            if(position>0 && position<10 && board[position] == ' ')
             {
                 board[position] = playerChoice;
+                CompMakesMove();
             }
             else
             {
                 Console.WriteLine("The desired position is not empty!");
             }
+        }
+
+        //Comp makes a move
+        public void CompMakesMove()
+        {
+            int count = 0;
+            int[] emptyPositions = new int[10];
+            int j = 1;
+            for (int i=1; i<=9; i++)
+            {
+                if (board[i]==' ')
+                {
+                    count++;
+                    emptyPositions[j] = i;
+                    j++;
+                }
+                else
+                {
+                    break;
+                }
+            }
+            Random random = new Random();
+            int randNumber = random.Next(1, count + 1);
+            board[emptyPositions[randNumber]] = compChoice;
         }
     }
 }

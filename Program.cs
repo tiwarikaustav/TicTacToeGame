@@ -11,6 +11,7 @@ namespace WorkShopOne
             char playerChoice = ticTacToeGame.ChooseXO();
             ticTacToeGame.ShowBoard();
             ticTacToeGame.PlayerMakesMove();
+            ticTacToeGame.ShowBoard();
         }
 
     }
